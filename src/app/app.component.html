@@ -23,7 +23,7 @@
             (click)="applyFilter(x)">{{x}}</button>
         </div>
       </div>
-      <div class="mt-6 grid xl:grid-cols-3 gap-2 md:grid-cols-2 sm:grid-cols-1"
+      <div class="mt-6 grid xl:grid-cols-3 gap-2 md:grid-cols-2 sm:grid-cols-1 pb-8 md:pb-0"
         *ngIf="filteredExtensionList.length > 0">
         <div
           class="bg-neutral-0 dark:bg-neutral-800 dark:border-neutral-600 p-4 rounded-2xl w-[23.5rem] border border-neutral-200 shadow-sm flex flex-col gap-8 justify-between"
@@ -63,7 +63,7 @@
   </div>
 </main>
 
-<footer class="attribution absolute bottom-0 text-center md:text-end mb-2 pr-3 w-full">
+<footer class="attribution absolute bottom-0 text-center md:text-end hidden md:block mb-2 pr-3 w-full">
   Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
   Coded by <a href="#">Yogesan</a>.
 </footer>
